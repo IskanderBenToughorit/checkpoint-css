@@ -1,0 +1,111 @@
+body {
+    font-family: 'roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+}
+  
+.he1 {
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre tout le contenu */
+    position: relative; /* Pour permettre un positionnement absolu du logo */
+
+}
+
+.logo {
+    height: 80px;
+    position: absolute;
+    left: 2rem; /* Décale le logo vers la gauche */
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+  
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+  
+main {
+    padding: 2rem 0;
+}
+  
+section {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    font-size: 2.2rem; 
+    color: #555; 
+    text-align: left; 
+    margin-bottom: 1.5rem; /* Espacement en bas */
+    padding-bottom: 0.5rem;
+    letter-spacing: 1px; /* Espacement léger entre les lettres */
+    font-weight: 500; 
+}
+  
+p {
+    line-height: 1.6;
+}
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #ff6347; /* Couleur du lien en hover (exemple: rouge tomate) */
+    text-decoration: underline; /* Ajout d'un soulignement  */
+}
+h1 {
+    font-size: 3rem; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 2rem; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre du texte */
+}
+textarea {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 150px; /* Ajustez la hauteur selon vos besoins */
+    border: 1px solid #ccc; /*style de bordure */
+    border-radius: 4px; /*arrondit les coins */
+    resize: none; /* empêche le redimensionnement */
+}
+input[type="submit"] {
+    display: block; /* Change le bouton en bloc */
+    margin: 1rem auto; /* Centre horizontalement et ajoute un espace vertical */
+    padding: 10px 20px; /* Ajuste le rembourrage du bouton */
+    border: none; /* Enlève la bordure par défaut */
+    border-radius: 4px;
+    cursor: pointer; /* Change le curseur au survol */
+    
+}
+  
